@@ -78,5 +78,10 @@
 * [Пример](./06_cas/README.md) -- Наставак унапређивања веб продавнице
 * [Снимак са часа](http://enastava.matf.bg.ac.rs/~danijela/RS2/06_cas/Cas6.mp4)
 
+### **VII час** -- Identity и ауторизација, коришћење SignalR
+
+* [Пример](./07_cas/README.md) -- Наставак унапређивања веб продавнице
+* [Снимак са часа](http://enastava.matf.bg.ac.rs/~danijela/RS2/07_cas/Cas7.mp4)
+
 
 [РС 2](../README.md)

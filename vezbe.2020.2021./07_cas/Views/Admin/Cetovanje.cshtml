@@ -1,0 +1,32 @@
+﻿@model string
+
+@{
+    ViewBag.Naslov = "Cetovanje";
+    Layout = "_AdminLayout";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <div class="form-group">
+                <label>Korisnik</label>
+                <input type="text" class="form-control" id="userInput" value="@Model"/>
+            </div>
+            <div class="form-group">
+                <label>Poruka</label>
+                <input type="text" class="form-control" id="porukaInput" />
+            </div>
+            <input type="button" id="posaljiButton" value="Posalji poruku"
+                   class="btn btn-outline-dark"/>
+        </div>
+    </div>
+</div>
+<hr />
+<div class="row">
+    <div class="col-6">
+        <ul class="list-group" id="listaPoruka"></ul>
+    </div>
+</div>
+
+<script src="~/lib/signalr/dist/browser/signalr.js"></script>
+<script src="~/lib/signalr/chat.js"></script>
