@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container">
+        <a class="navbar-brand" routerLink='/'>Zaposleni</a>
+        <ul class="navbar-nav mr-auto" *ngIf="accountService.currentUser$ | async">
+            <li class="nav-item">
+                <a class="nav-link" routerLink='/korisnici'>Korisnici</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink='/liste'>Liste</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink='/poruke'>Poruke</a>
+            </li>
+        </ul>
+
+        <div class="dropdown" *ngIf="accountService.currentUser$ | async" dropdown>
+            <a class="dropdown-toggle text-light" dropdownToggle>Dobrodošao</a>
+            <div class="dropdown-menu" *dropdownMenu>
+                <a class="dropdown-item">Promeni profil</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item"  (click)="logout()">Izloguj se</a>
+            </div>
+        </div>
+
+        <form *ngIf="(accountService.currentUser$ | async) === null" #loginForm="ngForm" class="form-inline mt-2 mt-md-0" (ngSubmit)="login()" autocomplete="off">
+            <input 
+                name="username"
+                [(ngModel)]="model.username"
+                class="form-control mr-sm-2" type="text" placeholder="Korisnicko ime">
+            <input 
+                name="password"
+                [(ngModel)]="model.password"
+                class="form-control mr-sm-2" type="password" placeholder="Sifra" />
+            <button class="btn btn-outline-success my-2 my-sm-0">Uloguj se</button>
+        </form>
+    </div>
+</nav>
