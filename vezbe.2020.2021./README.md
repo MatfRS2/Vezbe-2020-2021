@@ -86,8 +86,8 @@
 ### **VIII час** -- ASP.NET Core + Angular 9
 
 * [Пример](./08_09_cas/README.md) -- креирање друштвене мреже
-* [Снимак са часа](http://enastava.matf.bg.ac.rs/~danijela/RS2/08_cas/Cas8.mp4)
-* [Снимак са часа](http://enastava.matf.bg.ac.rs/~danijela/RS2/09_cas/Cas9.mp4)
+* [Снимак са часа, час 8](http://enastava.matf.bg.ac.rs/~danijela/RS2/08_cas/Cas8.mp4)
+* [Снимак са часа, час 9](http://enastava.matf.bg.ac.rs/~danijela/RS2/09_cas/Cas9.mp4)
 
 
 [РС 2](../README.md)
