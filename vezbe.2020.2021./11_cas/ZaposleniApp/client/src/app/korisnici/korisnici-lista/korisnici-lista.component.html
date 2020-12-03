@@ -1,0 +1,5 @@
+<div class="row">
+    <div class="col-2" *ngFor="let korisnik of korisnici$ | async">
+        <app-korisnik-kartica [korisnik]="korisnik"></app-korisnik-kartica>
+    </div>
+</div>

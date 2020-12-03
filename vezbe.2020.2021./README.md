@@ -78,5 +78,16 @@
 * [Пример](./06_cas/README.md) -- Наставак унапређивања веб продавнице
 * [Снимак са часа](http://enastava.matf.bg.ac.rs/~danijela/RS2/06_cas/Cas6.mp4)
 
+### **VII час** -- Identity и ауторизација, коришћење SignalR
+
+* [Пример](./07_cas/README.md) -- Наставак унапређивања веб продавнице
+* [Снимак са часа](http://enastava.matf.bg.ac.rs/~danijela/RS2/07_cas/Cas7.mp4)
+
+### **VIII час** -- ASP.NET Core + Angular 9
+
+* [Пример](./08_09_cas/README.md) -- креирање друштвене мреже
+* [Снимак са часа, час 8](http://enastava.matf.bg.ac.rs/~danijela/RS2/08_cas/Cas8.mp4)
+* [Снимак са часа, час 9](http://enastava.matf.bg.ac.rs/~danijela/RS2/09_cas/Cas9.mp4)
+
 
 [РС 2](../README.md)
