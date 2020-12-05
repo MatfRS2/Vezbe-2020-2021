@@ -1,0 +1,17 @@
+<div class="contaier mt-5">
+    <div *ngIf="!registerPolje" style="text-align: center;">
+        <h1>Aplikacija za zaposlene</h1>
+        <p>Registrujte se i pristupite svim zaposlenima</p>
+        <div class="text-center">
+            <button (click)="promeniRegisterMod()" class="btn btn-primary btn-lg">Registracija</button>
+        </div>
+    </div>
+
+    <div *ngIf="registerPolje" class="container">
+        <div class="row justify-content-center">
+            <div class="col-4">
+                <app-register (otkaziRegistraciju)="otkaziRegistracijuMod($event)"></app-register>
+            </div>
+        </div>
+    </div>
+</div>
