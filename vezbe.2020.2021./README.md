@@ -97,6 +97,6 @@
 ### **XI час** -- ASP.NET Core + Angular 9
 
 * [Пример](./11_cas/README.md) -- унапређивање друштвене мреже, приказ и измене корисника, додавање слика
-
+* [Снимак са часа](http://enastava.matf.bg.ac.rs/~danijela/RS2/11_cas/Cas11.mp4)
 
 [РС 2](../README.md)
