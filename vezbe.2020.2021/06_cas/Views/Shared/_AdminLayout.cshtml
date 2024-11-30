@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Naslov</title>
+    <meta charset="utf8" />
+
+    <link rel="stylesheet" asp-href-include="/lib/dist/**" />
+    <link rel="stylesheet" asp-href-include="/lib/font-awesome/**" />
+
+    <style>
+        .input-validation-error {border-color: red; background-color: #fee;}
+    </style>
+</head>
+<body>
+    <div class="m-1 p-1">
+        <div class="bg-info p-2"><h4>@ViewBag.Naslov</h4></div>
+        @if (TempData["poruka"] != null)
+        {
+            <div class="alert alert-success">@TempData["poruka"]</div>
+        }
+        @RenderBody()
+    </div>
+</body>
+</html>
